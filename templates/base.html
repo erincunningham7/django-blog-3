@@ -62,7 +62,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a
@@ -80,7 +80,6 @@
                 >About</a
               >
             </li>
-          </ul>
           {% if user.is_authenticated %}
           <li class="nav-item">
             <a
@@ -108,6 +107,7 @@
             >
           </li>
           {% endif %}
+          </ul
           <span class="navbar-text text-muted">
             adventures of a software developer
           </span>
